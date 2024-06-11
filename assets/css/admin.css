@@ -1,0 +1,225 @@
+.adminWrap{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.sideWrap{
+    width: 270px;
+    background: #232323;
+    padding: 30px;
+    position: relative;
+}
+
+.sideWrap .logo{
+    border-radius: 10px;
+}
+
+.sideWrap .title{
+    color: #fff;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.sideWrap a{    
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;    
+    border-radius: 5px;
+}
+
+.sideWrap a.active{
+    background: #4d4d4d;
+}
+
+.sideWrap a i{
+    margin-right: 15px;
+}
+
+.sideWrap .foot{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    font-size: 16px;
+}
+
+.adminWrap .mainWrap{
+    width: calc(100% - 270px);
+    padding: 20px;
+    background: #fff;
+}
+
+.seatWrap {
+    width: 100%;
+    max-height: calc(100vh - 40px);
+    overflow: auto;
+}
+
+.seatBtn {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;    
+    margin: 2px; /* 원하는 여백 설정 */
+    background: #eee;
+    border-radius: 5px;
+}
+
+.seatBtn.Y{
+    background: #737373;
+    color: #fff;
+}
+
+.seatBtn.N{
+    background: #ff4545;
+    color: #fff;
+}
+
+.seatBtn.choice{
+    background: #00b900;
+    color: #fff;
+}
+
+.topSeatBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;    
+}
+
+.topSeatBox span{
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.topSeatBox .seatBtn{
+    min-width: 35px;
+    min-height: 35px;
+}
+
+.seatBtn.choiceSeat{
+    background: #00b900;
+}
+
+.seatBtn.noActiveSeat{
+    background: #ff4545;
+}
+
+.seatBtnWrap .seatBtn:hover{
+    background: #a5a5a5;
+}
+
+.seatWrap .seatBoxWrap{
+    width: 100%;    
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+#seatPopup{
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+#seatPopup .title{
+    font-size: 24px;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+#seatPopup .fa-times{
+    position: absolute;
+    right: 18px;
+    top: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#seatPopup .guideBox{
+    font-size: 18px;
+    margin-bottom: 15px;
+    letter-spacing: -1px
+}
+
+#seatPopup .guideBox .circle{
+    font-size: 12px;
+    margin-right: 10px;
+    color: orange;
+}
+
+#seatPopup .contentBox{
+    padding-left: 15px;
+}
+
+#seatPopup .contentBox #seatNumber{
+    background: #eee;
+    width: 100%;    
+    border-radius: 5px;
+    padding-left: 10px;
+    padding: 14px;
+    font-size: 16px;
+}
+
+#seatPopup .modal-body{
+    padding: 30px;
+}
+
+#seatPopup .buttonBox{
+    margin-top: 20px;
+    text-align: right;
+}
+
+#seatPopup .buttonBox button{
+    padding: 15px 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#seatPopup .buttonBox .btnOk{
+    background: black;
+    color: #fff;
+    padding: 15px 50px;
+}
+
+#seatPopup .buttonBox .btnCancel{
+    background: #f73535;
+    color: #fff;
+}
+
+.toggleSwitch {
+    width: 100px;
+    height: 50px;
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 16px 3px rgba(0 0 0 / 15%);
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.toggleSwitch .toggleButton {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #454545;
+}
+
+#toggle:checked ~ .toggleSwitch {
+  background: #454545;
+}
+
+#toggle:checked ~ .toggleSwitch .toggleButton {
+  left: calc(100% - 44px);
+  background: #fff;
+}
+
+.toggleSwitch, .toggleButton {
+  transition: all 0.2s ease-in;
+}

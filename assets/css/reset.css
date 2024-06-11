@@ -1,0 +1,180 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+html {}
+
+body {	
+    line-height: 1;
+    overflow-x: hidden;    
+    height: 100vh;
+    width: 100%;
+    font-family: 'KCC-Hanbit';
+	font-weight: 500;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+a {
+	color: #40424c;
+	text-decoration: none;
+}
+
+/* 스크롤바를 숨깁니다. */
+::-webkit-scrollbar {
+  	width: 5px; /* 스크롤바 너비 조정 */
+	height: 5px;
+}
+
+/* 스크롤바의 트랙 (배경)을 스타일링합니다. */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* 스크롤바의 엄지손가락 (스크롤바를 드래그할 때)을 스타일링합니다. */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* 마우스를 올렸을 때의 스크롤바 엄지손가락 스타일링 */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*alert디자인(swal2)*/
+.swal2-container {
+	z-index: 99999 !important;
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+.swal2-popup {
+	max-width: 300px !important;
+	width: calc(100% - 80px) !important;
+	min-width: 280px !important;
+	font-size: 14px !important;
+	padding: 35px !important;
+}
+
+.swal2-title {
+	font-size: 1.15em !important;
+	margin-bottom: 10px !important;
+}
+
+.swal2-html-container {
+	font-size: 1em !important;
+	line-height: 1.4em !important;
+	margin: 0 !important;
+	word-break: keep-all !important;
+}
+
+.swal2-actions {
+	width: 100 !important%;
+	margin-top: 20px !important;
+	flex-wrap: nowra !importantp;
+	flex-direction: row-reverse !important;
+}
+
+.swal2-actions button {
+	width: 70px !important;
+	border-radius: 4px !important;
+	font-weight: 400;
+	line-height: 30px !important;
+	height: 30px !important;
+	padding: 0 !important;
+	border: 0 !important;
+	margin: 0 2px !important;
+}
+
+.swal2-actions button:hover,
+.swal2-actions button:focus {
+	outline: none !important;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.swal2-styled.swal2-confirm {
+	background: #3D50DF !important;    
+	color: #fff !important;
+	border-radius: 4px !important;
+}
+
+.swal2-styled.swal2-deny {
+	background: #C4C4C4 !important;
+	color: #fff !important;
+	border-radius: 4px !important;
+}
+
+.swal2-actions:not(.swal2-loading) .swal2-styled {
+	opacity: 0.9 !important;
+}
+
+.swal2-actions:not(.swal2-loading) .swal2-styled:hover {
+	background-image: none !important;
+	opacity: 1 !important;
+}
+
+@media screen and (max-width:550px) {
+	/*
+	input {
+		width: 100%;
+	}
+*/
+}

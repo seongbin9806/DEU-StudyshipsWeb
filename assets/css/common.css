@@ -1,0 +1,499 @@
+.mainWrap{    
+    width: 500px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#SignInView{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: -70px;
+}
+
+#SignInView .title{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 50px;
+}
+
+#SignInView .title img{
+    margin-right: 8px;
+}
+
+#SignInView .guide{
+    font-size: 22px;
+    margin: 40px 0;
+}
+
+#SignInView .loginInput{
+    width: 100%;
+    height: 55px;
+    margin-bottom: 20px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 18px;    
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+#SignInView .loginInput:focus{
+    border: 1px solid #3D50DF;
+}
+
+#SignInView .loginBtn{
+    width: 100%;
+    height: 60px;
+    background: #3D50DF;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+#SignInView .loginBtn i{
+    background: #F2583E;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+#SignInView .signupGuide{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 18px;
+    color: #7b7b7b;
+}
+
+#SignInView .goSignView{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+#SignInView .goSignView span{
+    color: #F2583E;
+}
+
+
+#SignUpView .guide{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+#SignUpView .errMsg{
+    color: #ff2a2a;
+    margin-bottom: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#SignUpView .inputContainer{
+    display: flex;
+    height: 50px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+#SignUpView .input{
+    width: 100%;
+    height: 55px;
+    margin-bottom: 20px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#SignUpView .input:focus{
+    border: 1px solid #3D50DF;
+}
+
+#SignUpView .inputContainer .input{
+    width: 72%;
+}
+
+#SignUpView .inputContainer .checkSameIdBtn{
+    width: 25%;
+    height: 55px;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+#SignUpView .inputContainer .checkSameIdBtn.active{
+    background: #3D50DF;
+    color: #fff;
+}    
+
+#SignUpView .joinBtn{
+    width: 100%;
+    height: 60px;    
+    border-radius: 5px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: #f3f3f3;
+}
+
+#SignUpView .joinBtn.active{
+    background: #3D50DF;
+    color: #fff;   
+}
+
+#SignUpView .joinBtn i{
+    background: #F2583E;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+#SignUpView .signupGuide{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 18px;
+    color: #7b7b7b;
+}
+
+#SignUpView .goSignView{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+#SignUpView .goSignView span{
+    color: #F2583E;
+}
+
+#home .mentBox{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#home .profile{
+    width: 60px;
+}
+
+#home .mentBox span{
+    display: block;
+    margin-left: 10px;    
+}
+
+#home .moveBox{
+    margin-top: 30px;    
+}
+
+#home .box{        
+    display: block;
+    width: 100%;
+    padding: 25px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+/*    font-family: 'Noto Sans KR', sans-serif !important;*/
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#home .box1{
+    background: #b6ffb6;
+}
+
+#home .box2{
+    background: #ffb226;
+}
+
+#home .box3{
+    background: #b6b6ff;
+}
+
+#home .box div:nth-child(1){
+    width: 80%;
+}
+
+#home .box .title{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+#home .box .subTitle{
+    font-size: 15px;
+}
+
+#home .box div:nth-child(2){
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+#home .btnLogout{
+    background: #5b5b5b;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Noto Sans KR', sans-serif !important;
+    float: right;
+}
+
+#Information .profileBox{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#Information .profileBox .profile{
+    width: 100px;
+}
+
+#Information .myInfoBox{
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 20px 0;    
+}
+
+#Information .title{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#Information .content{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+    font-size: 16px;
+}
+
+#Information .content2{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+#Information .btnBox{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#Information .goPayListBtn{
+    display: inline-block;
+    background: #3D50DF;    
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#Reserv .seatWrap {
+    width: 100%;
+    max-height: 45vh;
+    overflow: auto;
+}
+
+#Reserv .seatBtn {
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;    
+    margin: 2px;
+    background: #eee;
+    border-radius: 5px;
+    cursor: no-drop;
+}
+
+#Reserv .seatBtn.Y{
+    background: #737373;
+    color: #fff;
+    cursor: pointer;
+}
+
+#Reserv .seatBtn.U{
+    background: #ff4545;
+    color: #fff;
+    cursor: pointer;
+}
+
+#Reserv .seatBtn.N{
+    background: #fff;
+    color: #fff;
+}
+
+#Reserv .seatBtn.choice{
+    background: #00b900;
+    color: #fff;
+}
+
+#Reserv .topSeatBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;    
+}
+
+#Reserv .topSeatBox span{
+    margin: 0 6px;
+    font-size: 14px;
+}
+
+#Reserv .topSeatBox .seatBtn{
+    min-width: 25px;
+    min-height: 25px;
+}
+
+#Reserv .seatBtn.yesActiveSeat{
+    background: #737373;
+}
+
+#Reserv .seatBtn.choiceSeat{
+    background: #00b900;
+}
+
+#Reserv .seatBtn.noActiveSeat{
+    background: #ff4545;
+}
+
+#Reserv .seatBtnWrap .seatBtn:hover{
+    background: #a5a5a5;
+}
+
+#Reserv .seatWrap .seatBoxWrap{
+    width: 100%;      
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+#Reserv .seatPaymentTab{
+    margin-top: 20px;    
+    border-radius: 5px;    
+    line-height: 28px;
+}
+
+#Reserv .seatInfoTab{
+    background: #f1f1f1;
+    padding: 10px;    
+}
+
+#Reserv .goReservPayViewBtn{
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+    background: #00b900;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#ReservPayment{
+    padding-bottom: 50px;
+}
+
+#ReservPayment .guide{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#ReservPayment input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ababab;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#ReservPayment .tab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 15px;
+    border: 1px solid #ababab;
+    border-radius: 5px;
+    margin-bottom: 10px;    
+    font-size: 16px;
+}
+
+#ReservPayment .tab div:nth-child(2){
+    text-align: center;
+}
+
+#ReservPayment .useTimeTab{
+    cursor: pointer;
+}
+
+#ReservPayment .useTimeTab.active{
+    background: #717171;
+    color: #fff;
+}
+
+#ReservPayment .payBtnTab{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ReservPayment .payBtn{
+    width: 48%;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ReservPayment .payBtn i{
+    margin-left: 8px;
+}
+
+#ReservPayment .payBtn.card{
+    background: #1fb91f;
+    color: #fff;
+}
+
+#ReservPayment .payBtn.cash{
+    background: #7d7dff;
+    color: #fff;
+}
+
+@media screen and (max-width: 500px){
+    .mainWrap{
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
